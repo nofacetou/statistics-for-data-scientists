@@ -4,7 +4,7 @@
 library(googledrive)
 library(tidyverse)
 
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path(getwd())
 
 ## Import state data
 drive_download(as_id("0B98qpkK5EJembFc5RmVKVVJPdGc"), path=file.path(PSDS_PATH, 'data', 'state.csv'), overwrite=TRUE)
