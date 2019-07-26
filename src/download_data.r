@@ -2,6 +2,8 @@
 ## an alternative approach to download is included below
 
 library(googledrive)
+library(tidyverse)
+
 PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
 
 ## Import state data
